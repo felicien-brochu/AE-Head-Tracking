@@ -16,6 +16,7 @@ for (var i = 1; i <= effects.numProperties; i++) {
             prop.setValueAtTime(t, prop.valueAtTime(t, false));
             prop.setSelectedAtKey(j + 1, true);
         }
+        prop.expressionEnabled = false;
     }
 }
 
